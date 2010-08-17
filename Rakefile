@@ -29,16 +29,16 @@ task :default => :test
 
 desc 'Test the stringify_time plugin.'
 Rake::TestTask.new(:test) do |t|
-  t.libs << 'lib'
-  t.pattern = 'test/**/*_test.rb'
-  t.verbose = true
+	t.libs << 'lib'
+	t.pattern = 'test/**/*_test.rb'
+	t.verbose = true
 end
 
 desc 'Generate documentation for the stringify_time plugin.'
 Rake::RDocTask.new(:rdoc) do |rdoc|
-  rdoc.rdoc_dir = 'rdoc'
-  rdoc.title    = 'StringifyTime'
-  rdoc.options << '--line-numbers' << '--inline-source'
-  rdoc.rdoc_files.include('README')
-  rdoc.rdoc_files.include('lib/**/*.rb')
+	rdoc.rdoc_dir = 'rdoc'
+	rdoc.title		= 'StringifyTime'
+	rdoc.options << '--line-numbers' << '--inline-source'
+	rdoc.rdoc_files.include('README')
+	rdoc.rdoc_files.include('lib/**/*.rb')
 end
