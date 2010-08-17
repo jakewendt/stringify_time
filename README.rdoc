@@ -1,4 +1,4 @@
-= StringifyTime
+= StringifyTime (Gem / Rails Plugin)
 
 Introduction goes here.
 
@@ -9,6 +9,10 @@ Contains a collection of complex assertions.
  config.gem 'jakewendt-stringify_time',
    :lib    => 'stringify_time',
    :source => 'http://rubygems.org'
+
+== ToDo
+
+* add legitimate text to Rakefile
 
 == Attempting Gemification with Jeweler
 
