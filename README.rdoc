@@ -1,13 +1,21 @@
-StringifyTime
-=============
+= StringifyTime
 
 Introduction goes here.
 
+== Attempting Gemification with Jeweler
 
-Example
-=======
+ vi Rakefile
+ rake version:write
+ rake gemspec
+ rake install
+
+
+ rake version:bump:major
+ rake release
+
+== Example
 
 Example goes here.
 
 
-Copyright (c) 2008 [name of plugin creator], released under the MIT license
+Copyright (c) 2008 [Jake Wendt], released under the MIT license
